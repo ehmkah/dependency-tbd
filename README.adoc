@@ -1,1 +1,10 @@
 Example for showing dependency of different repositories
+
+
+== Build container
+
+`docker build -t dependency-tbd .`
+
+== Run container
+* `docker run -p 8080:80 dependency-tbd:latest`
+* open `http://localhost:8080/`
