@@ -1,3 +1,2 @@
-python3 src/main/python/run.py
-cp /tmp/repos/imgdiff/dependencies .
+python3 src/main/python/run.py > index.html
 docker build -t dependency-tbd .
