@@ -1,9 +1,8 @@
 Example for showing dependency of different repositories
 
-
 == Build container
 
-`docker build -t dependency-tbd .`
+`sh build.sh`
 
 == Run container
 * `docker run -p 8080:80 dependency-tbd:latest`
